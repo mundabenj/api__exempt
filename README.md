@@ -1,1 +1,1 @@
-# api__exempt
+# api_exempt
