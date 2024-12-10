@@ -1,12 +1,6 @@
 <?php
-
 // Importing content from an external file
-require_once "classes/layout.php";
-require_once "contents/contents.php";
-
-// Creating an instance of a class
-$ObjLayout = new layout();
-$ObjContent = new contents();
+require_once "AutoLoad.php";
 
 // Invoke a method
 $ObjLayout->heading();
