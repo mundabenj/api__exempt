@@ -11,7 +11,7 @@ date_default_timezone_set("AFRICA/Nairobi");
 
     $protocol = isset($_SERVER['HTTPS']) && 
     $_SERVER['HTTPS'] === 'on' ? 'https://' : 'http://';
-    $base_url = $protocol . $_SERVER['HTTP_HOST'] . '';
+    $base_url = $protocol . $_SERVER['HTTP_HOST'] . '/';
 
     $conf['ver_code_time'] = date("Y-m-d H:i:s", strtotime("+ 24hours"));
     $conf['ver_code_timeout'] = date("Y-m-d H:i:s", strtotime("- 24hours"));
@@ -24,5 +24,5 @@ date_default_timezone_set("AFRICA/Nairobi");
 
     // SMTP authentication
     $conf['smtp_auth'] = 'bbitalex@gmail.com';
-    $conf['smtp_pass'] = 'vddo wjwf upzj qymf';
+    $conf['smtp_pass'] = 'vddo wjwf upzj qymt';
     $conf['setFrom'] = $conf['site_initials'] .'@gmail.com';
