@@ -1,8 +1,9 @@
 <?php
 require "AutoLoad.php";
+$ObjGlob->checksignin();
 $ObjLayouts->heading();
 $ObjMenus->main_menu($conf);
 $ObjHeadings->main_banner();
-$ObjCont->main_content();
+$ObjForm->complete_reg_form($ObjGlob, $conn);
 $ObjCont->side_bar();
 $ObjLayouts->footer($conf);
