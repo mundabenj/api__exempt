@@ -2,7 +2,7 @@
 require "AutoLoad.php";
 $ObjGlob->checksignin();
 $ObjGlob->verify_profile();
-$ObjLayouts->heading();
+$ObjLayouts->heading($conf);
 $ObjMenus->main_menu($conf);
 $ObjHeadings->main_banner();
 $ObjCont->main_content();

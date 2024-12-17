@@ -78,7 +78,7 @@ if(!count($errors)){
                     'to_email' => $email_address,
                     'subject' => $this->bind_to_template($replacements, $lang["AccountVerification"]),
                     'message' => $this->bind_to_template($replacements, $lang["AccRegVer_template"])
-                ]);
+                ], $conf);
                 
                 header('Location: verify_code.php');
                 unset($_SESSION["fullname"], $_SESSION["username"]);

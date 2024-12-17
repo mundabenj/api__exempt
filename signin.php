@@ -1,6 +1,6 @@
 <?php
 require "AutoLoad.php";
-$ObjLayouts->heading();
+$ObjLayouts->heading($conf);
 $ObjMenus->main_menu($conf);
 $ObjHeadings->main_banner();
 $ObjForm->sign_in_form($ObjGlob);
