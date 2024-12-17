@@ -24,5 +24,5 @@ date_default_timezone_set("AFRICA/Nairobi");
 
     // SMTP authentication
     $conf['smtp_auth'] = 'bbitalex@gmail.com';
-    $conf['smtp_pass'] = 'vddo wjwf upzj qymt';
+    $conf['smtp_pass'] = 'vddo wjwf upzj qymf';
     $conf['setFrom'] = $conf['site_initials'] .'@gmail.com';
