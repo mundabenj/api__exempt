@@ -78,6 +78,9 @@ class menus{
                     <a class="nav-link" href="#">Our Projects</a>
                   </li>
                   <li class="nav-item">
+                    <a class="nav-link" href="people.php">People</a>
+                  </li>
+                  <li class="nav-item">
                     <a class="nav-link" href="#">Contact Us</a>
                   </li>
                 </ul>

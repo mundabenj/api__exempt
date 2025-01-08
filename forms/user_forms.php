@@ -225,4 +225,13 @@ $spot_profile = $conn->select(sprintf("SELECT `users`.`userId`, `users`.`fullnam
               </div>
     <?php
    }
+
+   public function search_users(){
+    ?>
+  <form action="" method="post">
+    <input class="form-control form-control-lg" type="text" name="in_put" id="in_put" placeholder="Search..." autofocus>
+  </form>
+  <br>
+  <?php
+   }
 }

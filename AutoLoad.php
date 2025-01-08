@@ -7,7 +7,7 @@ require "lang/en.php";
 // Class Auto Load
 function classAutoLoad($classname){
 
-    $directories = ["contents", "layouts", "menus", "forms", "processes", "global"];
+    $directories = ["contents", "layouts", "menus", "forms", "processes", "global", "tables"];
 
     foreach($directories AS $dir){
         $filename = dirname(__FILE__) . DIRECTORY_SEPARATOR . $dir . DIRECTORY_SEPARATOR . $classname . ".php";
@@ -28,6 +28,7 @@ function classAutoLoad($classname){
     $ObjHeadings = new headings();
     $ObjCont = new contents();
     $ObjForm = new user_forms();
+    $ObjTable = new fetch_lists();
     $conn = new dbConnection(DBTYPE, HOSTNAME, DBPORT, HOSTUSER, HOSTPASS, DBNAME);
 
 // Create process instances
