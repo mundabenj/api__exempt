@@ -8,7 +8,7 @@ class fetch_lists{
                 <th>#</th>
                 <th>Admission</th>
                 <th>Fullname</th>
-                <th>Email</th>
+                <th>Email address</th>
                 <th>Actions</th>
                 </tr>
             </thead>
